@@ -3,7 +3,7 @@
 # Define variables
 sourceDir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 buildDir="$sourceDir/build"
-projectName="@PROJECT_NAME@"
+projectName="wispher2"
 
 # Check if cmake is installed
 if ! command -v cmake &> /dev/null; then

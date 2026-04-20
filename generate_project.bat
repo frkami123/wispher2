@@ -5,7 +5,7 @@ REM Define variables
 set "sourceDir=%~dp0"
 set "buildDir=%sourceDir%build"
 set "defaultGenerator=Visual Studio 17 2022"
-set "projectName=@PROJECT_NAME@"
+set "projectName=wispher2"
 
 REM Check if cmake is installed
 where cmake >nul 2>&1

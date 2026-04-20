@@ -2,7 +2,7 @@
 $sourceDir = $PSScriptRoot  # The directory where the script is located (assuming it's the source root)
 $buildDir = Join-Path $sourceDir "build"  # The output directory for the VS solution
 $defaultGenerator = "Visual Studio 17 2022"  # Default generator
-$projectName = "@PROJECT_NAME@"
+$projectName = "wispher2"
 
 # Check if cmake is installed
 if (-not (Get-Command cmake -ErrorAction SilentlyContinue)) {
